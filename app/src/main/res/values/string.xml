@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QKart</string>
+
+    <string name="canteen_icon">Canteen icon</string>
+    <string name="canteen_subtitle">Snacks • Beverages</string>
+</resources>

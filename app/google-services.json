@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "382914904792",
+    "project_id": "qkart-89706",
+    "storage_bucket": "qkart-89706.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382914904792:android:c8f070dd60228d0a8dcdad",
+        "android_client_info": {
+          "package_name": "com.example.qkart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4YOwC2aNgRegusAFwZb6pjw1kFW9nMjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

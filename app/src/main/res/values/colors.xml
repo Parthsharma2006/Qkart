@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===============================
+         REQUIRED DEFAULT COLORS
+         (DO NOT REMOVE)
+    ================================ -->
+    <!-- Aliases for existing layouts -->
+    <color name="primary">#FF8A00</color>
+    <color name="primaryDark">#E67600</color>
+
+    <color name="colorPrimary">#FF8A00</color>
+    <color name="colorPrimaryDark">#E67600</color>
+    <color name="colorAccent">#1B5E20</color>
+
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#616161</color>
+
+    <color name="bg">#FFF7ED</color>
+
+    <!-- ===============================
+         QKART BRAND COLORS (CUSTOM)
+    ================================ -->
+
+    <color name="qkart_primary">#FF8A00</color>
+    <color name="qkart_primary_dark">#E67600</color>
+
+    <color name="qkart_secondary">#1B5E20</color>
+
+    <color name="qkart_background">#FFF7ED</color>
+    <color name="qkart_card">#FFFFFF</color>
+
+    <color name="qkart_text_primary">#212121</color>
+    <color name="qkart_text_secondary">#616161</color>
+
+</resources>

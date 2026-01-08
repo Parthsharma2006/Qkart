@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.qkart">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="QKart"
+        android:theme="@style/Theme.QKart"
+        tools:ignore="ExtraText">
+
+
+
+        <!-- LOGIN (LAUNCHER) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- SIGNUP -->
+        <activity android:name=".SignupActivity" />
+
+        <!-- USER APP -->
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop" />
+
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".OrderSuccessActivity" />
+
+        <!-- 🔥 ADMIN DASHBOARD (THIS LINE FIXES THE CRASH) -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
